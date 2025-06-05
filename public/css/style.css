@@ -1,0 +1,79 @@
+body{
+    background:rgb(74, 175, 74);
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+.container{
+    flex: 1;
+}
+.navbar{
+    height: 5rem;
+}
+.fa-solid{
+    color: red;
+    font-size:xx-large;
+}
+.nav-link{
+    font-weight: bold !important;
+}
+.f-info{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 10px;
+    height: 10rem;
+    background-color: rgb(234, 234, 234);
+    padding-top: 20px;
+    border-top: solid rgb(127, 127, 127) 1px;
+}
+.f-info-links a{
+    text-decoration: none;
+    color: black;
+}
+.f-info-links a:hover{
+    text-decoration: underline;
+}
+.f-info-social i{
+    font-size:large;
+    
+}
+.f-info-social , .f-info-links, .f-info-brand{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center !important;
+    align-items: center !important;
+    vertical-align:middle;
+    gap: 10px;
+}
+.f-info-brand{
+    margin-top: 10px;
+}
+
+/* cards */
+.listing-card{
+    border: none !important;
+    margin-bottom: 2rem;
+}
+.card-img-top{
+    border-radius: 1rem !important;
+    width: 100% !important;
+    object-fit: cover !important;
+}
+.card-body{
+    padding: 0 !important;
+}
+.row{
+    display: flex;
+    justify-content: space-evenly;
+}
+.listing-link{
+    text-decoration: none;
+}
+
+
+.form-label{
+    font-weight: bold;
+}
