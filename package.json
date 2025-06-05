@@ -1,5 +1,5 @@
 {
-  "engines":{
+  "engines": {
     "node": "23.10.0"
   },
   "name": "majorproject",
